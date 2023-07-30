@@ -1,0 +1,29 @@
+{
+  "name": "sajad7605/stimi",
+  "description": "random int",
+  "type": "library",
+  "license": "proprietary",
+  "minimum-stability": "stable",
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "require": {
+    "php": ">=5.6",
+    "phpmailer/phpmailer": "^6.6",
+    "ext-mbstring": "*",
+    "ext-json": "*",
+    "ext-zlib": "*"
+  },
+  "suggest": {
+    "ext-pdo": "*",
+    "ext-oci8": "*",
+    "ext-interbase": "*",
+    "ext-pgsql": "*",
+    "ext-odbc": "*",
+    "ext-sqlsrv": "*",
+    "ext-mssql": "*",
+    "ext-mysqli": "*"
+  }
+}
